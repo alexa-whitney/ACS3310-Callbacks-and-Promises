@@ -1,7 +1,10 @@
 const food = new Promise((resolve, reject) => {
-  
+  resolve('Crawfish Etouffee'); // Challenge 1
 })
 
+food.then(favoriteFood => {
+    console.log(`My favorite food is ${favoriteFood}`) // Challenge 2
+})
 
 // resolve food here: 
 
